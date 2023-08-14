@@ -35,12 +35,7 @@
                                 {
                                     name: "justify",
                                     icon: `<svg xmlns="http://www.w3.org/2000/svg" id="Layer" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-align-justify"><line x1="3" x2="21" y1="6" y2="6"/><line x1="3" x2="21" y1="12" y2="12"/><line x1="3" x2="21" y1="18" y2="18"/></svg>`,
-                                }
-                            
-                            
-                            
-
-                            ], this._CSS = {
+                                }], this._CSS = {
                                     alignment: {
                                         left: "editorjs-text-alignment--left",
                                         center: "editorjs-text-alignment--center",
@@ -143,7 +138,7 @@
                         i = n.n(r)()((function(t) {
                             return t[1]
                         }));
-                    i.push([t.id, ".editorjs-text-alignment--right {\n    text-align: right;\n}\n.editorjs-text-alignment--center {\n    text-align: center;\n}\n.editorjs-text-alignment--left {\n    text-align: left;\n}", ""]), e.Z = i
+                    i.push([t.id, ".editorjs-text-alignment--right {\n    text-align: right;\n}\n.editorjs-text-alignment--center {\n    text-align: center;\n}\n.editorjs-text-alignment--left {\n    text-align: left;\n}\n.editorjs-text-alignment--justify {\n    text-align: justify;\n}", ""]), e.Z = i
                 },
                 645: function(t) {
                     "use strict";
