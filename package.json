@@ -1,6 +1,6 @@
 {
-  "name": "editorjs-text-alignment-blocktune",
-  "version": "1.0.2",
+  "name": "editorjs-text-alignment-tool",
+  "version": "1.1",
   "main": "./dist/bundle.js",
   "license": "MIT",
   "keywords": [
@@ -8,6 +8,8 @@
     "paragraph",
     "alignment",
     "tool",
+    "text alignment",
+    "editor js",
     "editor.js",
     "editorjs"
   ],
@@ -38,6 +40,6 @@
     "example": "example"
   },
   "dependencies": {},
-  "author": "kaaaaaaaaaaai <kaiogita+npm@gmail.com>",
-  "description": "text alignment block tune tool for Editor.js"
+  "author": "Danijel Markov <mPaget96@gmail.com>",
+  "description": "Text alignment tool for Editor.js"
 }
