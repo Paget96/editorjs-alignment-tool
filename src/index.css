@@ -1,12 +1,12 @@
-.ce-tune-alignment--right {
+.editorjs-text-alignment--right {
     text-align: right;
 }
-.ce-tune-alignment--center {
+.editorjs-text-alignment--center {
     text-align: center;
 }
-.ce-tune-alignment--left {
+.editorjs-text-alignment--left {
     text-align: left;
 }
-.ce-tune-alignment--justify {
+.editorjs-text-alignment--justify {
     text-align: justify;
 }

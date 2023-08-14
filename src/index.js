@@ -57,10 +57,10 @@ export default class AlignmentBlockTune {
         this.data = data || { alignment: this.getAlignment() }
         this._CSS = {
             alignment: {
-                left: 'ce-tune-alignment--left',
-                center: 'ce-tune-alignment--center',
-                right: 'ce-tune-alignment--right',
-                justify: 'ce-tune-alignment--justify'
+                left: 'editorjs-text-alignment--left',
+                center: 'editorjs-text-alignment--center',
+                right: 'editorjs-text-alignment--right',
+                justify: 'editorjs-text-alignment--justify',
             }
         }
     }
@@ -84,12 +84,10 @@ export default class AlignmentBlockTune {
             alignment: alignment,
         };
 
-        // Удаляем все примененные классы
         this.wrapper.classList.remove(
             ...Object.values(this._CSS.alignment),
         );
 
-        // Устанавливаем указанный
         this.wrapper.classList.toggle(this._CSS.alignment[alignment], alignment === this.data.alignment)
     }
 
@@ -134,7 +132,7 @@ export default class AlignmentBlockTune {
             },
             {
                 name: 'justify',
-                icon: `<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-align-justify"><line x1="3" x2="21" y1="6" y2="6"/><line x1="3" x2="21" y1="12" y2="12"/><line x1="3" x2="21" y1="18" y2="18"/></svg>`,
+                icon: `<svg xmlns="http://www.w3.org/2000/svg" id="Layer" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-align-justify"><line x1="3" x2="21" y1="6" y2="6"/><line x1="3" x2="21" y1="12" y2="12"/><line x1="3" x2="21" y1="18" y2="18"/></svg>`,
                 label: self.api.i18n.t('Justify'),
                 isActive: self.data.alignment === 'justify',
                 closeOnActivate: true,
