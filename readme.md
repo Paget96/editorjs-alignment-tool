@@ -17,13 +17,13 @@ If you can help, please push the Star button :)
 Get the package
 
 ```shell
-npm i --save editorjs-text-alignment-blocktune
+npm i --save editorjs-text-alignment
 ```
 
 Include module at your application
 
 ```javascript
-const AlignmentTuneTool = require('editorjs-text-alignment-blocktune');
+const TextAlignmentTool = require('editorjs-text-alignment');
 ```
 
 ### Download to your project's source dir
@@ -70,5 +70,5 @@ tool:{
 
 | Field | Type     | Description        |
 | ----- | -------- | ------------------ |
-| default | `string` | "left"/"center"/"right", If not set, it will be "left".|
+| default | `string` | "left"/"center"/"right"/"justify", If not set, it will be "left".|
 | blocks | `object` | Default alignment can be set for each block |
