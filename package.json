@@ -1,6 +1,6 @@
 {
-  "name": "editorjs-alignment-tool",
-  "version": "1.0.1",
+  "name": "editorjs-text-alignment-tool",
+  "version": "1.0.2",
   "main": "./dist/bundle.js",
   "description": "Text alignment tool for Editor.js",
   "directories": {

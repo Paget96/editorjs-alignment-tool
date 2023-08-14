@@ -17,13 +17,13 @@ If you can help, please push the Star button :)
 Get the package
 
 ```shell
-npm i --save editorjs-text-alignment
+npm i --save editorjs-text-alignment-tool
 ```
 
 Include module at your application
 
 ```javascript
-const TextAlignmentTool = require('editorjs-text-alignment');
+const TextAlignmentTool = require('editorjs-text-alignment-tool');
 ```
 
 ### Download to your project's source dir
