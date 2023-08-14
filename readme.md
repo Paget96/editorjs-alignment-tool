@@ -33,7 +33,7 @@ const TextAlignmentTool = require('editorjs-text-alignment-tool');
 
 ### Load from CDN
 
-`https://cdn.jsdelivr.net/npm/editorjs-text-alignment-blocktune@latest`
+`https://cdn.jsdelivr.net/npm/editorjs-text-alignment-tool@latest`
 
 ## usage
 and look [editor.js document](https://editorjs.io/configuration#block-tunes-connection)
