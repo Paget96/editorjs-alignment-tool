@@ -45,14 +45,14 @@ tool:{
     },
     header: {
       class: Header,
-      tunes: ['anyTuneName'],
+      tunes: ['textAlignment'],
     },
     paragraph: {
       class: Paragraph,
       inlineToolbar: false,
-      tunes: ['anyTuneName'],
+      tunes: ['textAlignment'],
     },
-    anyTuneName: {
+    textAlignment: {
       class:AlignmentTuneTool,
       config:{
         default: "right",
