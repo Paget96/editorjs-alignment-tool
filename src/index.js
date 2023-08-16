@@ -12,7 +12,7 @@ export default class AlignmentBlockTune {
      * @returns {string}
      */
     static get DEFAULT_ALIGNMENT() {
-        return 'left';
+        return 'justify';
     }
 
     static get isTune() {
