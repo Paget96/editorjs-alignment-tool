@@ -26,7 +26,7 @@ export default class TextAlignmentTool {
         if (this.settings?.default) {
             return this.settings.default
         }
-        return AlignmentBlockTune.DEFAULT_ALIGNMENT
+        return TextAlignmentTool.DEFAULT_ALIGNMENT
     }
     /**
      *
@@ -153,4 +153,4 @@ export default class TextAlignmentTool {
 }
 
 
-module.exports = AlignmentBlockTune;
+module.exports = TextAlignmentTool;
