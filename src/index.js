@@ -3,7 +3,7 @@
  */
 require('./index.css').toString();
 
-export default class AlignmentBlockTune {
+export default class TextAlignmentTool {
 
     /**
      * Default alignment
@@ -20,7 +20,7 @@ export default class AlignmentBlockTune {
     }
 
     getAlignment() {
-        if (!!this.settings?.blocks && this.settings.blocks.hasOwnProperty(this.block.name)) {
+        if (this.settings?.blocks && this.settings.blocks.hasOwnProperty(this.block.name)) {
             return this.settings.blocks[this.block.name]
         }
         if (this.settings?.default) {

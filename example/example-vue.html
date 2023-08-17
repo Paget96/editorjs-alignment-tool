@@ -39,7 +39,7 @@
     import Carousel from "./carousel/dist/bundle.js";
     import AnyButton from "editorjs-button";
     import Underline from "@editorjs/underline";
-    import AlignmentBlockTune from "editorjs-text-alignment-blocktune";
+    import TextAlignmentTool from "editorjs-text-alignment-blocktune";
 
     export default {
       props: ["blocks"],
@@ -139,7 +139,7 @@
                 shortcut: "CMD+SHIFT+B",
               },
               alignmentSetting: {
-                class: AlignmentBlockTune,
+                class: TextAlignmentTool,
                 config: {
                   default: "right",
                   blocks: {
